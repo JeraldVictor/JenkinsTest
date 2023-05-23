@@ -1,7 +1,7 @@
 pipeline {
   agent {
-    dockerfile {
-      filename 'Dockerfile'
+    docker {
+      image 'ruby:2.7.5-slim-buster'
     }
 
   }
